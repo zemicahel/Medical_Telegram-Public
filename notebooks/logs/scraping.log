@@ -1,0 +1,305 @@
+2026-01-19 20:11:44,082 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-19 20:11:46,923 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-19 20:12:54,419 - INFO - Phone migrated to 4
+2026-01-19 20:12:54,537 - INFO - Reconnecting to new data center 4
+2026-01-19 20:12:54,653 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-01-19 20:12:54,657 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-01-19 20:12:54,659 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2026-01-19 20:12:56,659 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2026-01-19 20:13:12,090 - INFO - Starting scrape for: lobelia4cosmetics
+2026-01-19 20:13:12,681 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:13,357 - INFO - Downloaded image for msg 22946
+2026-01-19 20:13:13,777 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:14,370 - INFO - Downloaded image for msg 22945
+2026-01-19 20:13:14,373 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:15,133 - INFO - Downloaded image for msg 22944
+2026-01-19 20:13:15,140 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:15,806 - INFO - Downloaded image for msg 22943
+2026-01-19 20:13:15,808 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:16,278 - INFO - Downloaded image for msg 22942
+2026-01-19 20:13:16,281 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:16,888 - INFO - Downloaded image for msg 22941
+2026-01-19 20:13:16,893 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:17,691 - INFO - Downloaded image for msg 22940
+2026-01-19 20:13:17,700 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:18,201 - INFO - Downloaded image for msg 22939
+2026-01-19 20:13:18,204 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:18,554 - INFO - Downloaded image for msg 22938
+2026-01-19 20:13:18,557 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:19,055 - INFO - Downloaded image for msg 22937
+2026-01-19 20:13:19,058 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:19,641 - INFO - Downloaded image for msg 22936
+2026-01-19 20:13:19,643 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:20,569 - INFO - Downloaded image for msg 22935
+2026-01-19 20:13:20,571 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:20,872 - INFO - Downloaded image for msg 22934
+2026-01-19 20:13:20,875 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:21,296 - INFO - Downloaded image for msg 22933
+2026-01-19 20:13:21,300 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:22,042 - INFO - Downloaded image for msg 22932
+2026-01-19 20:13:22,046 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:22,735 - INFO - Downloaded image for msg 22931
+2026-01-19 20:13:22,738 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:23,082 - INFO - Downloaded image for msg 22930
+2026-01-19 20:13:23,085 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:23,642 - INFO - Downloaded image for msg 22929
+2026-01-19 20:13:23,648 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:24,178 - INFO - Downloaded image for msg 22928
+2026-01-19 20:13:24,189 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:24,754 - INFO - Downloaded image for msg 22927
+2026-01-19 20:13:24,761 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:24,908 - INFO - Downloaded image for msg 22926
+2026-01-19 20:13:24,911 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:25,103 - INFO - Downloaded image for msg 22925
+2026-01-19 20:13:25,112 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:25,816 - INFO - Downloaded image for msg 22924
+2026-01-19 20:13:25,821 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:26,318 - INFO - Downloaded image for msg 22923
+2026-01-19 20:13:26,328 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:26,919 - INFO - Downloaded image for msg 22922
+2026-01-19 20:13:26,923 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:27,485 - INFO - Downloaded image for msg 22921
+2026-01-19 20:13:27,488 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:27,988 - INFO - Downloaded image for msg 22920
+2026-01-19 20:13:27,990 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:28,348 - INFO - Downloaded image for msg 22919
+2026-01-19 20:13:28,353 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:28,734 - INFO - Downloaded image for msg 22918
+2026-01-19 20:13:28,736 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:28,965 - INFO - Downloaded image for msg 22917
+2026-01-19 20:13:28,969 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:29,561 - INFO - Downloaded image for msg 22916
+2026-01-19 20:13:29,568 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:29,977 - INFO - Downloaded image for msg 22915
+2026-01-19 20:13:29,982 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:30,390 - INFO - Downloaded image for msg 22914
+2026-01-19 20:13:30,392 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:30,549 - INFO - Downloaded image for msg 22913
+2026-01-19 20:13:30,551 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:31,046 - INFO - Downloaded image for msg 22912
+2026-01-19 20:13:31,049 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:31,398 - INFO - Downloaded image for msg 22911
+2026-01-19 20:13:31,400 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:31,742 - INFO - Downloaded image for msg 22910
+2026-01-19 20:13:31,745 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:32,052 - INFO - Downloaded image for msg 22909
+2026-01-19 20:13:32,054 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:32,497 - INFO - Downloaded image for msg 22908
+2026-01-19 20:13:32,502 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:33,814 - INFO - Downloaded image for msg 22907
+2026-01-19 20:13:33,818 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:34,391 - INFO - Downloaded image for msg 22906
+2026-01-19 20:13:34,393 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:34,659 - INFO - Downloaded image for msg 22905
+2026-01-19 20:13:34,661 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:34,903 - INFO - Downloaded image for msg 22904
+2026-01-19 20:13:34,906 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:35,263 - INFO - Downloaded image for msg 22903
+2026-01-19 20:13:35,265 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:35,630 - INFO - Downloaded image for msg 22902
+2026-01-19 20:13:35,635 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:36,010 - INFO - Downloaded image for msg 22901
+2026-01-19 20:13:36,012 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:36,702 - INFO - Downloaded image for msg 22900
+2026-01-19 20:13:36,704 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:36,981 - INFO - Downloaded image for msg 22899
+2026-01-19 20:13:36,984 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:37,619 - INFO - Downloaded image for msg 22898
+2026-01-19 20:13:37,622 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:38,899 - INFO - Downloaded image for msg 22897
+2026-01-19 20:13:38,904 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:40,249 - INFO - Downloaded image for msg 22896
+2026-01-19 20:13:40,256 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:41,030 - INFO - Downloaded image for msg 22895
+2026-01-19 20:13:41,033 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:41,448 - INFO - Downloaded image for msg 22894
+2026-01-19 20:13:41,496 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:42,314 - INFO - Downloaded image for msg 22893
+2026-01-19 20:13:42,320 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:42,695 - INFO - Downloaded image for msg 22892
+2026-01-19 20:13:42,700 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:42,928 - INFO - Downloaded image for msg 22891
+2026-01-19 20:13:42,931 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:43,549 - INFO - Downloaded image for msg 22890
+2026-01-19 20:13:43,709 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:44,461 - INFO - Downloaded image for msg 22889
+2026-01-19 20:13:44,466 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:45,870 - INFO - Downloaded image for msg 22888
+2026-01-19 20:13:45,874 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:45,999 - INFO - Downloaded image for msg 22887
+2026-01-19 20:13:46,003 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:46,235 - INFO - Downloaded image for msg 22886
+2026-01-19 20:13:46,244 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:46,504 - INFO - Downloaded image for msg 22885
+2026-01-19 20:13:46,507 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:47,297 - INFO - Downloaded image for msg 22884
+2026-01-19 20:13:47,299 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:50,516 - INFO - Downloaded image for msg 22883
+2026-01-19 20:13:50,519 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:53,084 - INFO - Downloaded image for msg 22882
+2026-01-19 20:13:53,086 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:13:56,733 - INFO - Downloaded image for msg 22881
+2026-01-19 20:13:56,735 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:04,453 - INFO - Downloaded image for msg 22880
+2026-01-19 20:14:04,456 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:10,540 - INFO - Downloaded image for msg 22879
+2026-01-19 20:14:10,542 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:12,115 - INFO - Downloaded image for msg 22878
+2026-01-19 20:14:12,117 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:13,527 - INFO - Downloaded image for msg 22877
+2026-01-19 20:14:13,531 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:14,195 - INFO - Downloaded image for msg 22876
+2026-01-19 20:14:14,200 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:14,714 - INFO - Downloaded image for msg 22875
+2026-01-19 20:14:14,717 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:15,209 - INFO - Downloaded image for msg 22874
+2026-01-19 20:14:15,213 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:16,383 - INFO - Downloaded image for msg 22873
+2026-01-19 20:14:16,385 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:18,547 - INFO - Downloaded image for msg 22872
+2026-01-19 20:14:18,550 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:19,484 - INFO - Downloaded image for msg 22871
+2026-01-19 20:14:19,489 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:20,073 - INFO - Downloaded image for msg 22870
+2026-01-19 20:14:20,080 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:22,264 - INFO - Downloaded image for msg 22869
+2026-01-19 20:14:22,268 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:23,534 - INFO - Downloaded image for msg 22868
+2026-01-19 20:14:23,537 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:24,336 - INFO - Downloaded image for msg 22867
+2026-01-19 20:14:24,340 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:25,572 - INFO - Downloaded image for msg 22866
+2026-01-19 20:14:25,578 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:26,028 - INFO - Downloaded image for msg 22865
+2026-01-19 20:14:26,031 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:26,565 - INFO - Downloaded image for msg 22864
+2026-01-19 20:14:26,570 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:27,008 - INFO - Downloaded image for msg 22863
+2026-01-19 20:14:27,013 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:27,502 - INFO - Downloaded image for msg 22862
+2026-01-19 20:14:27,504 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:29,185 - INFO - Downloaded image for msg 22861
+2026-01-19 20:14:29,189 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:29,583 - INFO - Downloaded image for msg 22860
+2026-01-19 20:14:29,592 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:30,005 - INFO - Downloaded image for msg 22859
+2026-01-19 20:14:30,010 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:31,280 - INFO - Downloaded image for msg 22858
+2026-01-19 20:14:31,287 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:31,806 - INFO - Downloaded image for msg 22857
+2026-01-19 20:14:31,810 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:32,399 - INFO - Downloaded image for msg 22856
+2026-01-19 20:14:32,403 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:32,989 - INFO - Downloaded image for msg 22855
+2026-01-19 20:14:33,007 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:33,473 - INFO - Downloaded image for msg 22854
+2026-01-19 20:14:33,477 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:33,884 - INFO - Downloaded image for msg 22853
+2026-01-19 20:14:33,894 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:34,555 - INFO - Downloaded image for msg 22852
+2026-01-19 20:14:34,562 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:34,815 - INFO - Downloaded image for msg 22851
+2026-01-19 20:14:34,818 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:34,980 - INFO - Downloaded image for msg 22850
+2026-01-19 20:14:34,983 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:41,607 - INFO - Downloaded image for msg 22849
+2026-01-19 20:14:41,610 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:42,777 - INFO - Downloaded image for msg 22848
+2026-01-19 20:14:42,780 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:43,016 - INFO - Downloaded image for msg 22847
+2026-01-19 20:14:43,021 - INFO - Successfully saved 100 messages for lobelia4cosmetics
+2026-01-19 20:14:43,143 - INFO - Starting scrape for: tikvahpharma
+2026-01-19 20:14:47,990 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:51,393 - INFO - Downloaded image for msg 189034
+2026-01-19 20:14:51,398 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:54,717 - INFO - Downloaded image for msg 189032
+2026-01-19 20:14:54,720 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:55,259 - INFO - Downloaded image for msg 189029
+2026-01-19 20:14:55,266 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:56,590 - INFO - Downloaded image for msg 189020
+2026-01-19 20:14:56,592 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:57,143 - INFO - Downloaded image for msg 189019
+2026-01-19 20:14:57,146 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:14:57,861 - INFO - Downloaded image for msg 189018
+2026-01-19 20:14:57,899 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:01,967 - INFO - Downloaded image for msg 189017
+2026-01-19 20:15:01,969 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:05,113 - INFO - Downloaded image for msg 189016
+2026-01-19 20:15:05,117 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:21,869 - INFO - Downloaded image for msg 189015
+2026-01-19 20:15:21,871 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:37,145 - INFO - Downloaded image for msg 189014
+2026-01-19 20:15:37,147 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:40,897 - INFO - Downloaded image for msg 189013
+2026-01-19 20:15:40,900 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:46,712 - INFO - Downloaded image for msg 189012
+2026-01-19 20:15:46,715 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:48,473 - INFO - Downloaded image for msg 189011
+2026-01-19 20:15:48,476 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:48,822 - INFO - Downloaded image for msg 189010
+2026-01-19 20:15:48,830 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:50,080 - INFO - Downloaded image for msg 189007
+2026-01-19 20:15:50,083 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:50,242 - INFO - Downloaded image for msg 189003
+2026-01-19 20:15:50,244 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:50,598 - INFO - Downloaded image for msg 189002
+2026-01-19 20:15:50,603 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:50,859 - INFO - Downloaded image for msg 188997
+2026-01-19 20:15:50,862 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:51,114 - INFO - Downloaded image for msg 188996
+2026-01-19 20:15:51,117 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:52,073 - INFO - Downloaded image for msg 188993
+2026-01-19 20:15:52,076 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:52,546 - INFO - Downloaded image for msg 188991
+2026-01-19 20:15:52,548 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:52,811 - INFO - Downloaded image for msg 188990
+2026-01-19 20:15:52,816 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:53,169 - INFO - Downloaded image for msg 188986
+2026-01-19 20:15:53,171 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:53,434 - INFO - Downloaded image for msg 188985
+2026-01-19 20:15:53,437 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:53,788 - INFO - Downloaded image for msg 188984
+2026-01-19 20:15:53,791 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:54,889 - INFO - Downloaded image for msg 188983
+2026-01-19 20:15:54,893 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:55,800 - INFO - Downloaded image for msg 188982
+2026-01-19 20:15:55,802 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:56,744 - INFO - Downloaded image for msg 188981
+2026-01-19 20:15:56,748 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:56,994 - INFO - Downloaded image for msg 188979
+2026-01-19 20:15:56,998 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:58,420 - INFO - Downloaded image for msg 188975
+2026-01-19 20:15:58,425 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:58,765 - INFO - Downloaded image for msg 188973
+2026-01-19 20:15:58,768 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:15:59,342 - INFO - Downloaded image for msg 188970
+2026-01-19 20:15:59,345 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:02,493 - INFO - Downloaded image for msg 188962
+2026-01-19 20:16:02,496 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:03,066 - INFO - Downloaded image for msg 188960
+2026-01-19 20:16:03,071 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:04,161 - INFO - Downloaded image for msg 188954
+2026-01-19 20:16:04,172 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:07,355 - INFO - Downloaded image for msg 188942
+2026-01-19 20:16:07,358 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:08,390 - INFO - Downloaded image for msg 188941
+2026-01-19 20:16:08,393 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:08,825 - INFO - Downloaded image for msg 188940
+2026-01-19 20:16:08,830 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:09,085 - INFO - Downloaded image for msg 188938
+2026-01-19 20:16:09,088 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:09,549 - INFO - Downloaded image for msg 188936
+2026-01-19 20:16:09,556 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:10,904 - INFO - Downloaded image for msg 188931
+2026-01-19 20:16:10,909 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:11,191 - INFO - Downloaded image for msg 188927
+2026-01-19 20:16:11,193 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:11,463 - INFO - Downloaded image for msg 188926
+2026-01-19 20:16:11,469 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:16,185 - INFO - Downloaded image for msg 188920
+2026-01-19 20:16:16,190 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-19 20:16:19,368 - INFO - Downloaded image for msg 188915
+2026-01-19 20:16:19,379 - INFO - Successfully saved 100 messages for tikvahpharma
+2026-01-19 20:16:19,501 - ERROR - Error scraping chemedtelegram: No user has "chemedtelegram" as username
+2026-01-19 20:16:19,503 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2026-01-19 20:16:19,506 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!

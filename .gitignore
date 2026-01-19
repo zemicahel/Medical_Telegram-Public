@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+.venv
+vector_store/
+.ipynb_checkpoints/
+.DS_Store
+data/
+.env
+data/raw/images/*
+*.env
