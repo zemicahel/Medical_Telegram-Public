@@ -1,0 +1,29 @@
+[0m20:22:27.871930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077caef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087ca380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087caa40>]}
+
+
+============================== 20:22:27.880580 | 4f0cf042-d26a-406f-bf45-c7e446eb7ad9 ==============================
+[0m20:22:27.880580 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:22:27.881781 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'empty': 'None', 'invocation_command': 'dbt init medical_warehouse', 'target_path': 'None', 'quiet': 'False', 'static_parser': 'True', 'use_colors': 'True', 'partial_parse': 'True', 'log_format': 'default', 'introspect': 'True', 'write_json': 'True', 'no_print': 'None', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/Users/mac/.dbt', 'indirect_selection': 'eager', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'printer_width': '80'}
+[0m20:22:27.938211 [info ] [MainThread]: Creating dbt configuration folder at /Users/mac/.dbt
+[0m20:22:27.940396 [info ] [MainThread]: A project called medical_warehouse already exists here.
+[0m20:22:27.943161 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.22733243, "process_in_blocks": "0", "process_kernel_time": 0.525894, "process_mem_max_rss": "94543872", "process_out_blocks": "0", "process_user_time": 2.840494}
+[0m20:22:27.944186 [debug] [MainThread]: Command `dbt init` succeeded at 20:22:27.943984 after 0.23 seconds
+[0m20:22:27.944926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1077caef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087cab60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1087c82e0>]}
+[0m20:22:27.947301 [debug] [MainThread]: Flushing usage events
+[0m20:22:29.473885 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:38:42.434663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10de36ef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ee33010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ee33f10>]}
+
+
+============================== 20:38:42.450669 | a87f393e-0165-4bee-a6d5-0525cfb61bdf ==============================
+[0m20:38:42.450669 [info ] [MainThread]: Running with dbt=1.11.2
+[0m20:38:42.452512 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'warn_error': 'None', 'write_json': 'True', 'version_check': 'True', 'log_cache_events': 'False', 'empty': 'False', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'static_parser': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'debug': 'False', 'printer_width': '80', 'partial_parse': 'True', 'fail_fast': 'False', 'cache_selected_only': 'False', 'invocation_command': 'dbt run', 'target_path': 'None', 'use_colors': 'True', 'profiles_dir': '/Users/mac/.dbt', 'introspect': 'True', 'log_format': 'default'}
+[0m20:38:42.453802 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/mac/Documents/kaim/medical-telegram-warehouse/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:38:42.456631 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.17073987, "process_in_blocks": "0", "process_kernel_time": 0.530314, "process_mem_max_rss": "93855744", "process_out_blocks": "0", "process_user_time": 2.882172}
+[0m20:38:42.459624 [debug] [MainThread]: Command `dbt run` failed at 20:38:42.459263 after 0.17 seconds
+[0m20:38:42.461226 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10de36ef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ee325f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ee332e0>]}
+[0m20:38:42.465544 [debug] [MainThread]: Flushing usage events
+[0m20:38:44.052422 [debug] [MainThread]: An error was encountered while trying to flush usage events
