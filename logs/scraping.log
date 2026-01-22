@@ -1,0 +1,195 @@
+2026-01-22 15:36:50,815 - INFO - Context impl SQLiteImpl.
+2026-01-22 15:36:50,816 - INFO - Will assume non-transactional DDL.
+2026-01-22 15:36:55,416 - INFO - Context impl SQLiteImpl.
+2026-01-22 15:36:55,416 - INFO - Will assume non-transactional DDL.
+2026-01-22 15:37:02,906 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-22 15:37:04,633 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-22 15:37:06,787 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-22 15:37:06,902 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-22 15:37:08,161 - INFO - Context impl SQLiteImpl.
+2026-01-22 15:37:08,163 - INFO - Will assume non-transactional DDL.
+2026-01-22 15:37:08,294 - INFO - Context impl SQLiteImpl.
+2026-01-22 15:37:08,295 - INFO - Will assume non-transactional DDL.
+2026-01-22 15:37:10,990 - INFO - Context impl SQLiteImpl.
+2026-01-22 15:37:10,990 - INFO - Will assume non-transactional DDL.
+2026-01-22 15:37:11,037 - INFO - Context impl SQLiteImpl.
+2026-01-22 15:37:11,037 - INFO - Will assume non-transactional DDL.
+2026-01-22 15:38:22,133 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-01-22 15:38:22,241 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-01-22 15:38:39,139 - INFO - Phone migrated to 4
+2026-01-22 15:38:39,254 - INFO - Reconnecting to new data center 4
+2026-01-22 15:38:39,369 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-01-22 15:38:39,369 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-01-22 15:38:39,370 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2026-01-22 15:38:40,894 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2026-01-22 15:38:59,096 - INFO - Starting scrape for: lobelia4cosmetics
+2026-01-22 15:38:59,361 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:38:59,654 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:38:59,893 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:00,022 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:00,275 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:00,521 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:00,659 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:01,163 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:01,287 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:01,601 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:01,831 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:01,964 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:02,111 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:02,356 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:02,515 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:02,779 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:02,916 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:03,042 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:03,349 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:03,593 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:03,746 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:03,893 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:04,125 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:04,380 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:04,516 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:04,722 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:04,848 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:04,969 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:05,325 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:05,617 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:05,782 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:05,924 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:06,053 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:06,202 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:06,352 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:06,493 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:06,798 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:08,386 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:08,622 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:08,745 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:08,871 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:09,259 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:09,506 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:09,649 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:09,906 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:10,149 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:10,438 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:11,522 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:11,789 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:12,029 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:12,424 - INFO - Successfully saved 50 messages for lobelia4cosmetics
+2026-01-22 15:39:12,551 - INFO - Starting scrape for: tikvahpharma
+2026-01-22 15:39:12,783 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:13,174 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:13,426 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:13,557 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:13,696 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:13,943 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:14,084 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:14,231 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:14,379 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:14,892 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:15,297 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:15,422 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:15,557 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:15,951 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:16,092 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:16,231 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:16,360 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:16,780 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:17,030 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:17,428 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:17,583 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:17,764 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:19,026 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:39:19,175 - INFO - Successfully saved 50 messages for tikvahpharma
+2026-01-22 15:39:19,288 - ERROR - Error scraping chemedtelegram: No user has "chemedtelegram" as username
+2026-01-22 15:39:19,288 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2026-01-22 15:39:19,289 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2026-01-22 15:41:02,031 - INFO - Context impl SQLiteImpl.
+2026-01-22 15:41:02,032 - INFO - Will assume non-transactional DDL.
+2026-01-22 15:41:09,075 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2026-01-22 15:41:09,179 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2026-01-22 15:41:10,067 - INFO - Starting scrape for: lobelia4cosmetics
+2026-01-22 15:41:10,368 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:10,727 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:12,155 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:12,655 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:13,095 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:13,441 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:13,583 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:14,109 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:14,259 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:14,516 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:14,751 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:14,901 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:15,051 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:15,292 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:15,497 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:15,757 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:15,878 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:16,022 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:16,275 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:16,542 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:16,695 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:16,855 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:17,012 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:17,259 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:17,379 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:17,514 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:17,640 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:17,765 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:18,127 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:18,409 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:18,574 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:18,725 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:18,903 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:19,093 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:19,246 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:19,375 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:19,528 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:19,669 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:19,813 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:19,934 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:20,053 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:20,351 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:20,519 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:20,671 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:20,833 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:20,992 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:21,156 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:21,317 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:21,499 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:21,659 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:21,819 - INFO - Successfully saved 50 messages for lobelia4cosmetics
+2026-01-22 15:41:21,939 - INFO - Starting scrape for: tikvahpharma
+2026-01-22 15:41:22,157 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:22,472 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:22,642 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:22,764 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:22,889 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:23,043 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:23,171 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:23,342 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:23,505 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:23,835 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:24,251 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:24,371 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:24,507 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:24,817 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:25,071 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:25,221 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:25,361 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:26,137 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:26,407 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:26,814 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:26,939 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:27,073 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:27,445 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-01-22 15:41:27,578 - INFO - Successfully saved 50 messages for tikvahpharma
+2026-01-22 15:41:27,697 - ERROR - Error scraping chemedtelegram: No user has "chemedtelegram" as username
+2026-01-22 15:41:27,699 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2026-01-22 15:41:27,700 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2026-01-22 15:41:35,424 - INFO - 🔍 Processing images for channel: lobelia4cosmetics
+2026-01-22 15:42:14,904 - INFO - 🔍 Processing images for channel: tikvahpharma
+2026-01-22 15:42:31,217 - INFO - ✅ Detection complete. Results saved to /Users/mac/Documents/kaim/medical-telegram-warehouse/notebooks/data/raw/yolo_detections.csv
+2026-01-22 15:42:44,208 - INFO - Context impl SQLiteImpl.
+2026-01-22 15:42:44,208 - INFO - Will assume non-transactional DDL.
+2026-01-22 15:42:44,263 - INFO - Context impl SQLiteImpl.
+2026-01-22 15:42:44,264 - INFO - Will assume non-transactional DDL.

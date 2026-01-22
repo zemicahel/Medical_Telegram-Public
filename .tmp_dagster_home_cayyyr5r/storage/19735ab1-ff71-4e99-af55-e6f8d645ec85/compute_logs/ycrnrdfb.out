@@ -1,0 +1,4 @@
+Searching for JSON in: /Users/mac/Documents/kaim/medical-telegram-warehouse/notebooks/data/raw/telegram_messages
+Table raw.telegram_messages truncated.
+Successfully loaded 500 rows to raw.telegram_messages
+Successfully loaded 254 rows to detection.yolo_results

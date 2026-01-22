@@ -1,0 +1,12 @@
+[32m2026-01-22 15:41:35 +0300[0m - dagster - [34mDEBUG[0m - telegram_medical_pipeline - 19735ab1-ff71-4e99-af55-e6f8d645ec85 - 82501 - LOGS_CAPTURED - Started capturing logs in process (pid: 82501).
+[32m2026-01-22 15:41:35 +0300[0m - dagster - [34mDEBUG[0m - telegram_medical_pipeline - 19735ab1-ff71-4e99-af55-e6f8d645ec85 - 82501 - yolo_op - STEP_START - Started execution of step "yolo_op".
+[32m2026-01-22 15:41:35 +0300[0m - dagster - [34mDEBUG[0m - telegram_medical_pipeline - 19735ab1-ff71-4e99-af55-e6f8d645ec85 - yolo_op - Loading file from: /Users/mac/Documents/kaim/medical-telegram-warehouse/.tmp_dagster_home_cayyyr5r/storage/19735ab1-ff71-4e99-af55-e6f8d645ec85/scrape_op/result using PickledObjectFilesystemIOManager...
+[32m2026-01-22 15:41:35 +0300[0m - dagster - [34mDEBUG[0m - telegram_medical_pipeline - 19735ab1-ff71-4e99-af55-e6f8d645ec85 - 82501 - yolo_op - LOADED_INPUT - Loaded input "wait" using input manager "io_manager", from output "result" of step "scrape_op"
+[32m2026-01-22 15:41:35 +0300[0m - dagster - [34mDEBUG[0m - telegram_medical_pipeline - 19735ab1-ff71-4e99-af55-e6f8d645ec85 - 82501 - yolo_op - STEP_INPUT - Got input "wait" of type "Any". (Type check passed).
+2026-01-22 15:41:35,424 - INFO - 🔍 Processing images for channel: lobelia4cosmetics
+2026-01-22 15:42:14,904 - INFO - 🔍 Processing images for channel: tikvahpharma
+2026-01-22 15:42:31,217 - INFO - ✅ Detection complete. Results saved to /Users/mac/Documents/kaim/medical-telegram-warehouse/notebooks/data/raw/yolo_detections.csv
+[32m2026-01-22 15:42:31 +0300[0m - dagster - [34mDEBUG[0m - telegram_medical_pipeline - 19735ab1-ff71-4e99-af55-e6f8d645ec85 - 82501 - yolo_op - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2026-01-22 15:42:31 +0300[0m - dagster - [34mDEBUG[0m - telegram_medical_pipeline - 19735ab1-ff71-4e99-af55-e6f8d645ec85 - yolo_op - Writing file at: /Users/mac/Documents/kaim/medical-telegram-warehouse/.tmp_dagster_home_cayyyr5r/storage/19735ab1-ff71-4e99-af55-e6f8d645ec85/yolo_op/result using PickledObjectFilesystemIOManager...
+[32m2026-01-22 15:42:31 +0300[0m - dagster - [34mDEBUG[0m - telegram_medical_pipeline - 19735ab1-ff71-4e99-af55-e6f8d645ec85 - 82501 - yolo_op - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2026-01-22 15:42:31 +0300[0m - dagster - [34mDEBUG[0m - telegram_medical_pipeline - 19735ab1-ff71-4e99-af55-e6f8d645ec85 - 82501 - yolo_op - STEP_SUCCESS - Finished execution of step "yolo_op" in 55.9s.

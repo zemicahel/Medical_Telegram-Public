@@ -1,10 +1,23 @@
+# Virtual environments
 venv/
+.venv/
+n.venv/
+*.venv/
+
+# Python cache
 __pycache__/
-.venv
-vector_store/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# OS
 .DS_Store
-data/
+
+# Env files
 .env
-data/raw/images/*
 *.env
+
+# Data
+data/
+data/raw/images/*
+vector_store/

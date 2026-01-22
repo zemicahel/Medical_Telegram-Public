@@ -1,0 +1,22 @@
+# Core
+python-dotenv==1.0.1
+pandas==2.1.0
+SQLAlchemy==2.0.20
+
+# YOLO / Computer Vision
+ultralytics==8.1.6
+torch==2.1.0
+torchvision==0.17.1
+
+# Async / Event loop
+nest-asyncio==1.5.8
+asyncio==3.4.3
+
+# Telegram
+telethon==1.27.0
+
+# Logging (built-in, no need to install)
+# datetime (built-in, no need to install)
+# pathlib (built-in, no need to install)
+# json (built-in, no need to install)
+# os (built-in, no need to install)
