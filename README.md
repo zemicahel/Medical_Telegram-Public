@@ -1,9 +1,13 @@
+Below is a **GitHub-compatible, clean Markdown version** of your README.
+I removed UI artifacts (`code / Text / download / content_copy / expand_less`), normalized headings, and formatted code blocks so it renders perfectly on GitHub.
+
+You can **copy-paste this directly into `README.md`**.
 
 ---
 
 # 🏥 Medical Telegram Data Warehouse
 
-A scalable **data engineering pipeline** designed to extract, transform, and analyze **medical business data from Telegram channels** using an asynchronous scraper, a **dbt-powered PostgreSQL warehouse**, and a modular analytics architecture.
+A scalable **data engineering & analytics pipeline** designed to extract, transform, enrich, and serve medical business data from Telegram channels using **asynchronous scraping**, **YOLOv8 computer vision**, a **dbt-powered PostgreSQL warehouse**, **FastAPI**, and **Dagster orchestration**.
 
 ---
 
@@ -13,139 +17,127 @@ A scalable **data engineering pipeline** designed to extract, transform, and ana
 medical-telegram-warehouse/
 ├── data/
 │   └── raw/
-│       ├── telegram_messages/  # JSON partitions (YYYY-MM-DD/channel.json)
-│       └── images/             # Organized photos (channel/msg_id.jpg)
-├── medical_warehouse/          # dbt project directory
+│       ├── telegram_messages/   # JSON partitions (YYYY-MM-DD/channel.json)
+│       └── images/              # Organized images (channel/msg_id.jpg)
+├── medical_warehouse/           # dbt project
 │   ├── models/
-│   │   ├── staging/            # Task 2: Data cleaning & type casting
-│   │   └── marts/              # Task 2: Star Schema (Dimensions & Facts)
-│   ├── tests/                  # Custom data quality tests
-│   └── dbt_project.yml         # dbt configuration
+│   │   ├── staging/             # Task 2: Data cleaning & casting
+│   │   └── marts/               # Task 2 & 3: Star schema & AI marts
+│   ├── tests/                   # dbt data quality tests
+│   └── dbt_project.yml
 ├── src/
-│   ├── scraper.py              # Task 1: Asynchronous Telegram scraper
-│   └── to_postgres.py          # Task 2: JSON to PostgreSQL loader
-├── api/                        # Task 4: FastAPI Application (Roadmap)
-│   └── main.py
-├── logs/                       # Scraper activity & error logs
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project documentation
+│   ├── scraper.py               # Task 1: Async Telegram scraper
+│   ├── to_postgres.py           # Task 2: Load JSON/CSV into PostgreSQL
+│   └── yolo_detect.py           # Task 3: YOLOv8 object detection
+├── api/                         # Task 4: FastAPI application
+│   ├── main.py                  # API routes
+│   ├── database.py              # SQLAlchemy engine/session
+│   └── schemas.py               # Pydantic models
+├── orchestration/               # Task 5: Dagster pipeline
+│   └── pipeline.py              # Dagster jobs & schedules
+├── logs/                        # Scraper & pipeline logs
+├── requirements.txt             # Python dependencies
+└── README.md
 ```
 
 ---
 
 ## 🛰️ Task 1: Data Scraping & Collection (Extract)
 
-The goal of this stage is to build a **robust extraction layer** capable of handling high-volume Telegram channels without triggering rate limits.
+A robust extraction layer for high-volume Telegram channels.
 
 ### 1️⃣ Asynchronous MTProto Scraper
 
-Using the **Telethon** library, the scraper interacts directly with Telegram’s **MTProto protocol**, enabling efficient access to both messages and media.
-
-* **Concurrency**
-  Uses `asyncio` to download high-resolution images while parsing message metadata in parallel.
-
-* **Resilience**
-  Implements `FloodWaitError` handling to automatically pause and resume scraping when rate limits are encountered.
+* Built with **Telethon** (MTProto protocol)
+* Uses **asyncio** for concurrent message + media downloads
+* Handles `FloodWaitError` gracefully to avoid bans
 
 ### 2️⃣ Bronze Data Lake (Raw Layer)
 
-All extracted data is stored in its **raw form** to avoid early data loss.
+* Raw data preserved to avoid early data loss
+* **Hive-style partitioning**:
 
-* **Hive-Style Partitioning**
-
-  ```text
+  ```
   data/raw/telegram_messages/YYYY-MM-DD/channel_name.json
   ```
-
-  Enables partition pruning for downstream analytics and transformations.
-
-* **Media Decoupling**
-  Images are stored separately using message identifiers, keeping the warehouse lightweight while enabling downstream computer-vision analysis (Task 3).
+* Images stored separately using message IDs for CV processing
 
 ---
 
 ## 🏗️ Task 2: Data Modeling & Transformation (Transform)
 
-Raw Telegram JSON is transformed into a **clean Star Schema** using **dbt** and **PostgreSQL**.
+Raw Telegram data is transformed into a clean **Star Schema** using **dbt + PostgreSQL**.
 
 ### 1️⃣ Staging Layer (`stg_telegram_messages`)
 
-Acts as the data cleaning factory:
+* Casts ISO timestamps → `TIMESTAMP`
+* Normalizes engagement metrics with `COALESCE`
+* Creates derived flags (e.g. `has_image`)
 
-* Casts ISO date strings to proper `TIMESTAMP`
-* Normalizes engagement metrics using `COALESCE`
-* Creates derived boolean fields (e.g. `has_image`)
-* Ensures schema consistency before dimensional modeling
+### 2️⃣ Dimensional Modeling
 
-### 2️⃣ Dimensional Modeling (Star Schema)
-
-* **`fct_messages` (Fact Table)**
-  Central table containing engagement metrics and foreign keys
-
-* **`dim_channels` (Dimension)**
-  Channel metadata including activity span and average engagement
-
-* **`dim_dates` (Dimension)**
-  Date spine enabling time-series analysis (weekday, weekend, quarter, etc.)
-
-### 3️⃣ Data Quality & Validation
-
-A **test-driven transformation** approach using dbt tests:
-
-* **Referential Integrity**
-  Ensures every message maps to a valid channel
-
-* **Custom Business Rules**
-  Prevents data corruption using rules such as:
-
-  * No future-dated messages
-  * Valid timestamp ranges
+* **fct_messages** – engagement metrics & foreign keys
+* **dim_channels** – channel metadata & activity spans
+* **dim_dates** – date spine for time-series analytics
 
 ---
 
-## 🚀 Future Roadmap
+## 👁️ Task 3: AI Enrichment (YOLOv8 Object Detection)
 
-### 👁️ Task 3: Object Detection (YOLOv8)
+Images are enriched with **computer vision metadata**.
 
-Image analytics using **Ultralytics YOLOv8**:
+### 1️⃣ Classification Logic
 
-* **Detection**
-  Identify pills, bottles, and people in medical posts
+* **Promotional** – person + product
+* **Product Display** – product only
+* **Lifestyle** – people without products
 
-* **Classification**
+### 2️⃣ Warehouse Integration
 
-  * *Promotional*: Person + Product
-  * *Product Display*: Product only
-
-* **Goal**
-  Measure how visual content type affects engagement
-
----
-
-### 🌐 Task 4: Analytical API (FastAPI)
-
-Expose the warehouse through a RESTful API.
-
-Planned endpoints:
-
-* `/api/reports/top-products`
-* `/api/channels/{name}/activity`
-* `/api/search`
-
-Features:
-
-* Pydantic-based request/response validation
-* Read-optimized analytics queries
+* YOLO detections stored in `detection.yolo_results`
+* Joined via `fct_image_detections`
+* Enables analysis of **human presence vs engagement**
 
 ---
 
-### ⚙️ Task 5: Pipeline Orchestration (Dagster)
+## 🌐 Task 4: Analytical API (Serve)
 
-Automate the end-to-end pipeline.
+A **FastAPI** service exposes warehouse insights via REST.
 
-* Convert scripts into **Dagster ops**
-* Schedule daily incremental runs
-* Monitor pipeline health via Dagster UI
+### 1️⃣ Key Endpoints
+
+* `GET /api/reports/top-products` – most mentioned medical terms
+* `GET /api/channels/{name}/activity` – posting trends
+* `GET /api/search/messages` – keyword search
+* `GET /api/reports/visual-content` – AI image analytics
+
+### 2️⃣ Developer Experience
+
+* **Pydantic** for strict validation
+* **Swagger UI** available at `/docs`
+
+---
+
+## ⚙️ Task 5: Pipeline Orchestration (Automate)
+
+The full workflow is automated using **Dagster**.
+
+### 1️⃣ Job Dependency Graph
+
+```
+Scrape Data
+   ↓
+YOLO Detection
+   ↓
+Load to PostgreSQL
+   ↓
+dbt Transformations
+```
+
+### 2️⃣ Operations & Monitoring
+
+* Daily scheduled runs
+* Dagster UI for observability and debugging
 
 ---
 
@@ -159,49 +151,54 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
-
-### 2️⃣ Data Extraction (Task 1)
-
-Create a `.env` file containing your Telegram credentials:
+Create a `.env` file:
 
 ```env
-API_ID=your_api_id
-API_HASH=your_api_hash
-```
-
-Run the scraper:
-
-```bash
-python src/scraper.py
+API_ID=your_telegram_api_id
+API_HASH=your_telegram_api_hash
+DATABASE_URL=postgresql://user:password@localhost:5432/warehouse
 ```
 
 ---
 
-### 3️⃣ Load Data to PostgreSQL (Task 2)
+### 2️⃣ Run the Full Pipeline (Dagster)
 
 ```bash
-python src/to_postgres.py
+dagster dev -f orchestration/pipeline.py
+```
+
+Access the Dagster UI:
+
+```
+http://localhost:3000
 ```
 
 ---
 
-### 4️⃣ dbt Transformations
+### 3️⃣ Start the API
 
 ```bash
-cd medical_warehouse
-dbt run
-dbt test
+uvicorn api.main:app --reload
 ```
 
-View documentation:
+API Docs:
 
-```bash
-dbt docs generate
-dbt docs serve
+```
+http://127.0.0.1:8000/docs
 ```
 
 ---
 
 ## ✅ Project Status
+
+| Task               | Status      |
+| ------------------ | ----------- |
+| Task 1 – Scraping  | ✅ Completed |
+| Task 2 – Warehouse | ✅ Completed |
+| Task 3 – AI (YOLO) | ✅ Completed |
+| Task 4 – FastAPI   | ✅ Completed |
+| Task 5 – Dagster   | ✅ Completed |
+
+🚀 **Full Production Pipeline: Active**
+
 
